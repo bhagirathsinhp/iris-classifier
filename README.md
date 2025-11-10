@@ -61,3 +61,7 @@ Make sure you have the following libraries installed:
 
 ---
 
+## 👤 Author
+
+[![GitHub: bhagirathsinhp](https://img.shields.io/github/followers/bhagirathsinhp?label=Follow&style=social)](https://github.com/bhagirathsinhp)
+[![LinkedIn: Bhagirath Parmar](https://img.shields.io/badge/-Bhagirath%20Parmar-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bhagirath-parmar-385865269/)](https://www.linkedin.com/in/bhagirath-parmar-385865269/)
