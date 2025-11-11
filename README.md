@@ -50,7 +50,12 @@ All exported files are stored in an outputs/ folder.
 
 - Make sure you have the following libraries installed:
 
-      pip install -r requirements.txt
+      scikit-learn>=1.3
+      matplotlib>=3.8
+      seaborn>=0.13
+      jupyter>=1.0
+      pytest>=8.0
+      joblib>=1.3
 
 ---
 
@@ -86,11 +91,25 @@ All exported files are stored in an outputs/ folder.
 
 ## ▶️ How to Run
 
-- Run the script:
+### 🧩 Set Up a Python Virtual Environment
 
-      python train.py
+**Windows:**
 
-- OR run interactively in Jupyter Notebook:
+    python -m venv venv
+
+**macOS / Linux:**
+
+    source venv/bin/activate
+
+**Install dependencies:**
+
+    pip install -r requirements.txt
+
+**Run the script:**
+
+    python train.py
+
+**OR run interactively in Jupyter Notebook:**
   - Open notebook.ipynb
   - Each code snippet is placed in separate cells for easy execution and understanding
 
