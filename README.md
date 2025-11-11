@@ -31,33 +31,68 @@ The project uses the built-in **Iris dataset** from `sklearn.datasets`.
 
 ## 🛠 Steps Performed
 
-1. **Load the Iris dataset**
-2. **Split the data** into training and testing sets (`80% train`, `20% test`)
-3. **Train** the Decision Tree classifier
-4. **Make predictions** on the test set
-5. **Evaluate the model** using:
-   - Accuracy score
-   - Confusion matrix
+1. Load the Iris dataset
+2. Split the data into training and testing sets (80% train, 20% test)
+3. Train the Decision Tree classifier
+4. Predict the classes for the test set
+5. Evaluate the model using:
+    - Accuracy score
+    - Confusion matrix
+6. Export results automatically:
+    - Saves the confusion matrix as a PNG image
+    - Saves the trained Decision Tree model as a .joblib file
+
+All exported files are stored in an outputs/ folder.
 
 ---
 
 ## 📦 Requirements
 
-Make sure you have the following libraries installed:
+- Make sure you have the following libraries installed:
 
-    pip install scikit-learn
+      pip install -r requirements.txt
+
+---
+
+## 📂 Project Structure
+
+    ┣ notebooks/
+    ┃ ┗ iris_model.ipynb
+    ┣ outputs/
+    ┃ ┣ confusion_matrix.png
+    ┃ ┗ decision_tree_model.joblib
+    ┣ src/
+    ┃ ┗ train.py
+    ┣ tests/
+    ┃ ┗ test_train.py
+    ┣ .gitignore
+    ┣ README.md
+    ┗ requirements.txt
 
 ---
 
 ## ✅ Results
 
-- Displays first few predictions from the test set
+- After running train.py, the following will be generated automatically:
+  ✅ outputs/confusion_matrix.png — Heatmap image of confusion matrix
+  ✅ outputs/decision_tree_model.joblib — Trained model file
 
-- Prints the true labels for comparison
+- Additionally:
+  - First few predictions and their corresponding true labels are printed
+  - Full confusion matrix is displayed in the console
+  - Overall model accuracy is printed
 
-- Shows model accuracy
+---
 
-- Outputs the confusion matrix to visualize performance
+## ▶️ How to Run
+
+- Run the script:
+
+      python train.py
+
+- OR run interactively in Jupyter Notebook:
+  - Open notebook.ipynb
+  - Each code snippet is placed in separate cells for easy execution and understanding
 
 ---
 
