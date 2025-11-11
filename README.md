@@ -1,7 +1,7 @@
 # 🌸 Iris Flower Classification using Decision Tree
 
 This project demonstrates a simple yet effective **machine learning workflow** using the classic **Iris dataset**.  
-The goal is to classify iris flowers into three species — *setosa*, *versicolor*, and *virginica* — using a **Decision Tree Classifier** from `scikit-learn`.
+The goal is to classify iris flowers into three species: *setosa*, *versicolor*, and *virginica*, using a **Decision Tree Classifier** from `scikit-learn`.
 
 ---
 
